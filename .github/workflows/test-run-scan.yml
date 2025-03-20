@@ -39,11 +39,4 @@ jobs:
             [ "https://brokencrystals.com" ]
           module: "dast"
           hosts_filter: |
-            [ ]
-      - name: Stop the scan
-        id: stop
-        uses: NeuraLegion/bright-github-actions/stop-scan@release
-        with:
-          api_token: ${{ secrets.BRIGHT_TOKEN }}
-          scan: ${{ steps.scan.outputs.id }}
-          hostname: ${{ vars.HOSTNAME }}
+            ["brokencrystals.com"]
