@@ -69,4 +69,4 @@ Where `type` can be:
 - style: Changes that do not affect the meaning of the code
 - test: Adding missing tests or correcting existing tests
 
-Commit messages are automatically validated using commitlint.
+Commit messages are automatically validated using commitlint
