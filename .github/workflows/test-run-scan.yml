@@ -1,7 +1,7 @@
 name: Test run-scan
 
 on:
-  pull_request:
+  push:
     branches:
       - '**'
 
