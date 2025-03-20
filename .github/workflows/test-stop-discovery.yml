@@ -1,7 +1,7 @@
 name: Test stop-discovery
 
 on:
-  push:
+  pull_request:
     branches:
       - '**'
 

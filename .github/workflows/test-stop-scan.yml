@@ -1,7 +1,7 @@
 name: Test stop-scan
 
 on:
-  push:
+  pull_request:
     branches:
       - '**'
 
